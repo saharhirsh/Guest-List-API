@@ -25,12 +25,12 @@ cd guestlist-api
 
 ### 2️⃣ Build Docker image
 ```bash
-docker build -t giligalili/guestlistapi:ver01 .
+docker build -t saharhirsh/guestlistapi:ver01 .
 ```
 
 ### 3️⃣ Run container
 ```bash
-docker run -p 1111:1111 giligalili/guestlistapi:ver01
+docker run -p 1111:1111 saharhirsh/guestlistapi:ver01
 ```
 
 API is now running at: `http://localhost:1111`
@@ -78,11 +78,8 @@ API is now running at: `http://localhost:1111`
 - Logging level is set to INFO.
 - You can push updates with:
 ```bash
-docker tag giligalili/guestlistapi:ver01 giligalili/guestlistapi:ver02
-docker push giligalili/guestlistapi:ver02
+docker tag saharhirsh/guestlistapi:ver01 saharhirsh/guestlistapi:ver02
+docker push saharhirsh/guestlistapi:ver02
 ```
 
 ---
-
-Let me know if you’d like to extend this project—database integration, front-end dashboard, or even email invitations!
->>>>>>> 0867d20 (added API section)
