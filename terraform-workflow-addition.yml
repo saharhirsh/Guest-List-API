@@ -15,7 +15,7 @@
           echo "Clean branch: $CLEAN_BRANCH"
           
           # Docker Hub settings
-          DOCKER_USER="giligalili"
+          DOCKER_USER="saharhirsh"
           IMAGE_NAME="guestlistapi"
           
           # Query DockerHub API for tags
